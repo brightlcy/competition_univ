@@ -1,29 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T08:56:13.067Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bl7AiyTuQN6Ho0cha9k9" version="22.1.1" type="device">
+<mxfile host="app.diagrams.net" modified="2023-12-02T10:50:47.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P27g18CJXOxIjeKJH2ni" version="22.1.5" type="github">
   <diagram name="페이지-1" id="6xDAHY-PFdrt-k60f_tK">
-    <mxGraphModel dx="1835" dy="1268" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1691" dy="1039" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="deJrleRd14R21oLjXJeP-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="deJrleRd14R21oLjXJeP-2" target="deJrleRd14R21oLjXJeP-3">
+        <mxCell id="EiSODAqxG9cKcMxGd4C--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EiSODAqxG9cKcMxGd4C--1" target="EiSODAqxG9cKcMxGd4C--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="deJrleRd14R21oLjXJeP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="deJrleRd14R21oLjXJeP-2" target="deJrleRd14R21oLjXJeP-12">
+        <mxCell id="EiSODAqxG9cKcMxGd4C--1" value="발전기 1,2, 의 데이터 기간에맞춰서 날씨 데이터 수집" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="120" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSODAqxG9cKcMxGd4C--2" value="데이터수집" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSODAqxG9cKcMxGd4C--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EiSODAqxG9cKcMxGd4C--4" target="EiSODAqxG9cKcMxGd4C--7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="deJrleRd14R21oLjXJeP-2" value="&lt;h1&gt;기상기후 빅데이터와 머신러닝을 활용한&amp;nbsp;&lt;/h1&gt;&lt;h1&gt;태양광 발전량 예측&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="70" width="490" height="160" as="geometry" />
+        <mxCell id="EiSODAqxG9cKcMxGd4C--4" value="데이터 상태 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="290" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="deJrleRd14R21oLjXJeP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="deJrleRd14R21oLjXJeP-3" target="deJrleRd14R21oLjXJeP-14">
+        <mxCell id="EiSODAqxG9cKcMxGd4C--6" value="결측치 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSODAqxG9cKcMxGd4C--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EiSODAqxG9cKcMxGd4C--7" target="EiSODAqxG9cKcMxGd4C--10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="deJrleRd14R21oLjXJeP-3" value="대상지역&amp;nbsp;&lt;br&gt;&lt;br&gt;강원대학교 삼척캠퍼스 내 설치된 태양광 발전시설" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-540" y="350" width="510" height="250" as="geometry" />
+        <mxCell id="EiSODAqxG9cKcMxGd4C--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EiSODAqxG9cKcMxGd4C--7" target="EiSODAqxG9cKcMxGd4C--12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="deJrleRd14R21oLjXJeP-12" value="문제&lt;br&gt;기상기후 데이터를 이용하여 과거 데이터 학습 후&amp;nbsp;&lt;br&gt;1시간 단위의 태양광 발전량 예측" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="350" width="445" height="250" as="geometry" />
+        <mxCell id="EiSODAqxG9cKcMxGd4C--7" value="이전데이터를가져오거나&lt;br&gt;NaN 일떄는 0으로 대체" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="460" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="deJrleRd14R21oLjXJeP-14" value="제공되는 기존데이터 사용" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="670" width="510" height="250" as="geometry" />
+        <mxCell id="EiSODAqxG9cKcMxGd4C--9" value="결측치 처리" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="475" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSODAqxG9cKcMxGd4C--10" value="train" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="640" width="300" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EiSODAqxG9cKcMxGd4C--12" value="test" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="640" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
